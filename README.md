@@ -30,12 +30,12 @@ Below are the instructions for compiling and running each program, including env
 ### C#
 
 - **Environment Setup**: Install the .NET SDK and the C# extension for VS Code.
-- **Compilation and Execution**: Run `FizzBuzz.cs` within a .NET project setup using default configuration.
+- **Compilation and Execution**: Run `FizzBuzz.cs` within a .NET project setup using the default configuration.
 
 ### Lisp
 
 - **Environment Setup**: Install a Lisp interpreter or compiler. I used Steel Bank Common Lisp. Add bin path to environmental variable. Install Alive lisp environment in vs code extensions.
-- **Execution**: I used  & 'C:\Program Files\Steel Bank Common Lisp\sbcl.exe' --script "C:\Users\noah1\Coding Projects\VSCodeProjects\lisp\FizzBuzz.lisp"  to directly specifiy the path and run `FizzBuzz.lisp`.
+- **Execution**: I used  & 'C:\Program Files\Steel Bank Common Lisp\sbcl.exe' --script "C:\Users\noah1\Coding Projects\VSCodeProjects\lisp\FizzBuzz.lisp"  to directly specify the path and run `FizzBuzz.lisp`.
 
 ### C
 
