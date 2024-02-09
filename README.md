@@ -34,7 +34,7 @@ Below are the instructions for compiling and running each program, including env
 
 ### Lisp
 
-- **Environment Setup**: Install a Lisp interpreter or compiler. I used Steel Bank Common Lisp. Add bin path to environmental variable. Install Alive lisp environment in vs code extensions.
+- **Environment Setup**: Install a Lisp interpreter or compiler. Install [Steel Bank Common Lisp](https://www.sbcl.org/platform-table.html) based on what OS you are using. Add bin path to environmental variable. Install Alive lisp environment in vs code extensions.
 - **Execution**: I used  & 'C:\Program Files\Steel Bank Common Lisp\sbcl.exe' --script "C:\Users\noah1\Coding Projects\VSCodeProjects\lisp\FizzBuzz.lisp"  to directly specify the path and run `FizzBuzz.lisp`.
 
 ### C
@@ -42,3 +42,10 @@ Below are the instructions for compiling and running each program, including env
 - **Environment Setup**: Install GNU Compiler COllection. I used msys2. This is a newer version that Microsoft Visual Studio uses by default
 - **Compilation**: Compile with `gcc -o FizzBuzz FizzBuzz.c` or `clang -o FizzBuzz FizzBuzz.c`. I used the first
 - **Execution**: Run `./FizzBuzz`. This is the executable, if you're not sure if it's in your directory, use ls and look for an exe file.
+- 
+## Challenges and Solutions
+- One challenge I ran into was accidentally downloading the Linux version of Lisp instead of Windows. I recognized that the file extensions were not .exe and realized my mistake.
+- This made it impossible to set as an environmental variable and I have thus learned from my mistake.
+
+- I also struggled to run Lisp in the terminal in VS code without directly specifying the path. 
+- I believe this is related to the way I initially set up my environmental variable 
