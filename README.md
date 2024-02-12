@@ -30,7 +30,7 @@ Below are the instructions for compiling and running each program, including env
 ### C#
 
 - **Environment Setup**: Install the .NET SDK and the C# extension for VS Code.
-- **Compilation and Execution**: Run `FizzBuzz.cs` within a .NET project setup using the default configuration.
+- **Compilation and Execution**: Run `Program.cs` within a .NET project setup using the default configuration.
 
 ### Lisp
 
